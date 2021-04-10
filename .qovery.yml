@@ -1,0 +1,11 @@
+---
+application:
+  name: "hw"
+  project: "hw"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-hw"
+  routes:
+  - application_name: "hw"
+    paths:
+    - "/*"
